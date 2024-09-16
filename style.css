@@ -1,0 +1,38 @@
+body{
+    font-family: 'Roboto';
+}
+nav {
+    display: inline;
+
+}
+nav li{
+    margin-right: 100px;
+}
+nav li:last-child{
+    margin-right: 0;
+
+}
+/* nav li:first-child{
+    margin-left: 330px;
+} */
+
+nav a{
+    color: black;
+    padding: 10px;
+}
+nav a:hover{
+    color: rgb(215, 105, 240);
+}
+.section{
+    border: 2px black solid;
+    background-color: rgb(204, 176, 230);
+    display: inline-block;
+}
+#button:hover{
+    color: blueviolet;
+    cursor: pointer;
+    background-color: black;
+}
+#button{
+    border-radius: 10px;
+}
