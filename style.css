@@ -3,10 +3,13 @@ body{
 }
 nav {
     display: inline;
+    
 
 }
+
 nav li{
     margin-right: 100px;
+    
 }
 nav li:last-child{
     margin-right: 0;
